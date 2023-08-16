@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b62bb74676.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+    <form>
+        <div class="form-container">
+    <div class="input-group"  >
+    <label for="day">DAY</label><br>
+    <input type="number" id="day" placeholder="DD" >
+    <small class="errorDay"></small>
+</div>
+
+    <div class="input-group">
+        <label for="month">MONTH</label><br>
+        <input type="number" id="month" placeholder="MM" >
+        <small class="errorMonth"></small>
+        </div>
+        <div class="input-group">
+            <label for="year">YEAR</label><br>
+            <input type="number" id="year" placeholder="YYYY">
+        <small class="errorYear"></small>   
+        </div> 
+            </div> 
+            <div class="block">
+                <button  type="submit" class="btn" ><i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>   
+</form>
+    
+    <div class="output">
+    <h2><span class="yy">--</span> years</h2>
+    <h2><span class="mm">--</span> months</h2>
+    <h2><span class="dd">--</span> days</h2>
+
+    </div>
+</div>
+    </div>
+  <script src="./main.js"></script>  
+</body>
+</html>
