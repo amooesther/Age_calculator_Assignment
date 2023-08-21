@@ -75,7 +75,10 @@ function checkAge() {
         outDay.textContent = ageDay;
         outMonth.textContent = ageMonth;
         outYear.textContent = ageYears;
-        localStorage.setItem("age", inYear.value);
+         localStorage.setItem("age1", outYear.textContent);
+        localStorage.setItem("age2",  outMonth.textContent);
+        localStorage.setItem("age3", outDay.textContent );
+
     } else {
         alert('error');
         
